@@ -2,7 +2,6 @@ function countingSort(arr) {
     // Why do you need counting sort? Because both quick sort and merge sort has complexity of  O(nlogn)
     // Counting sort is a linear sorting algorithm with asymptotic complexity O(n+k). The Counting Sort method is a fast and reliable sorting algorithm. 
     // Counting sort, unlike bubble and merge sort, is not a comparison-based algorithm.
-
     // First we have to initiate the array with 100 elements as requested by teh challenge
     const frequencyArray = new Array(100).fill(0);
     // Then we update this array with frequency of occurence of each n item in arr
